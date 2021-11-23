@@ -1,0 +1,35 @@
+.header {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height:auto ;
+    background:  linear-gradient(90deg,rgb(30, 217, 241), rgb(172, 215, 230), rgb(30, 217, 241));
+    justify-content:flex-start;
+    padding-top: 40px;
+    padding-bottom: 30px;
+
+    .header__h1 {
+        font-size: 45px;
+        padding-left: 100px;
+
+    }
+    .header__h2 {
+        font-size: 20px;
+        padding-left: 100px;
+    }
+    .header__img{
+        filter : brightness(1,1);
+        mix-blend-mode: multiply;
+        height: 110px;
+        padding-left: 100px;
+        
+    }
+    .header--contenedor__busqueda {
+        padding-top: 60px;
+        justify-content: center;
+        padding-left: 350px;
+    }
+    
+}

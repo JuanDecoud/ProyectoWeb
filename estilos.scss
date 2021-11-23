@@ -1,0 +1,86 @@
+*{
+    margin : 0 ;
+    padding : 0 ;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+    
+}
+
+/* Estilos Encabezado */
+@import "_header";
+/* Estilos Footer*/
+@import "_footer";
+/* Barra Bavegacion */
+@import "_nav";
+/* SECCION OFERTAS */
+@import "_galeria";
+/* Seccion Nosotros*/
+@import "_nosotros";
+/* Seccion Contacto*/
+@import "_contacto";
+/* Imagen Central */
+.fleximg {
+    background:linear-gradient(90deg,rgb(30, 217, 241), rgb(172, 215, 230), rgb(30, 217, 241));
+}
+
+/* Media Dispositivos */
+@media (max-width: 320px) {
+    header , li a , footer {
+        font-size : 15px ;
+    }
+    .imagenCentral{
+        height: 200px;
+    }
+
+    img {
+        height : 150px;
+    }
+
+    footer {
+        height : 200px
+    }
+}
+
+@media (max-width: 480px) {
+    header , li a , footer {
+        font-size : 20px ;
+    }
+    header img {
+        padding-top: 10px;
+    }
+    .imagenCentral{
+        height: 250px;
+    }
+    img {
+        
+        height : 160px;
+    }
+    footer {
+        height : 150px
+    }
+}
+
+
+
+@media (max-width: 600px) {
+    header , li a , footer {
+        font-size : 20px ;
+    }
+    header {
+        padding : 10px 10px
+    }
+    header img {
+        padding-top: 10px;
+    }
+    .imagenCentral{
+        height: 300px;
+    }
+    img {
+        
+        height : 160px;
+    }
+    footer {
+        height : 150px
+    }
+}

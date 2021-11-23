@@ -1,0 +1,40 @@
+.baNav {
+    display: flex;
+    border: 2px solid white;
+    width: 100%;
+    height: auto;
+    background:  linear-gradient(90deg,rgb(30, 217, 241), rgb(172, 215, 230), rgb(30, 217, 241));
+    justify-content: center;
+
+    .baNav__form{
+        padding-left: 500px;
+    }
+    .baNav__ul {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        list-style: none;
+        
+    }
+    .baNav__li { 
+        display: inline-block;
+        position: relative;
+        
+    }
+    .baNav__a { 
+        display: block;
+        padding: 14px 16px;
+        color: rgb(14, 11, 11); 
+        font-size: xx-large; 
+        text-decoration: none; 
+        letter-spacing: 5px;
+        font-size: 20px;
+    }
+      .baNav__li   {
+        .baNav__a:hover{
+            background-color: aliceblue;
+            text-decoration: none;
+        }
+    }
+    
+}
